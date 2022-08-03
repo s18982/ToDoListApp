@@ -5,7 +5,7 @@
 }
 body{
     background-image: linear-gradient(120deg,#aff4ef,#58e0f5);
-    color: white;
+    color: whitesmoke;
     font-family:'Poppins',sans-serif;
 }
 
@@ -28,13 +28,13 @@ form input, form button{
 }
 form button{
     color: rgb(165, 88, 236);
-    background: rgb(201, 197, 197);
+    background: gainsboro;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 form button:hover{
     background-color: rgb(165, 88, 236);
-    color: rgb(201, 197, 197);
+    color: whitesmoke;
 }
 .todo-container{
     display: flex;
@@ -80,6 +80,6 @@ select{
 }
 
 .select:hover::after{
-    background: white;
+    background: whitesmoke;
     color: rgb(165, 88, 236);
 }
